@@ -39,3 +39,23 @@ All scenario knobs are gathered at the top of `trace_and_chase.py`:
 | `tmax`, `dt`, `animation_interval` | Simulation and animation resolution. |
 
 Adjust any of these values to explore different timelines (late launches, sluggish defenders, closer intercept bubbles, etc.). Contributions that add stochastic runs, additional vehicle models, or export options are very welcome.
+
+## Web Arcade (3D & 2D)
+
+### 🚀 Next Gen 3D Simulation (New)
+A playable, high-fidelity 3D version of the missile guidance script built with Next.js and React Three Fiber.
+- **Features**: User-controlled aircraft, realistic hypersonic missile physics, defensive systems.
+- **Run**:
+  ```bash
+  cd frontend
+  npm run dev
+  ```
+  Then open `http://localhost:3000`.
+
+### 🕹️ Lightweight 2D Arcade (Legacy)
+A simple, top-down arcade mode.
+- **Run**:
+  ```bash
+  python -m http.server 8000 -d web
+  ```
+  Then open `http://localhost:8000`.

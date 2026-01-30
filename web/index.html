@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Argus: Aerial Chase Arcade</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game"></canvas>
+      <div class="hud">
+        <div class="title">ARGUS // AERIAL CHASE</div>
+        <div class="panel">
+          <div class="row">
+            <span>Objective</span>
+            <span class="accent">Tag the bandit before it exits</span>
+          </div>
+          <div class="row">
+            <span>Controls</span>
+            <span class="accent">Click to launch · R to reset</span>
+          </div>
+          <div class="row">
+            <span>Missiles</span>
+            <span id="ammo" class="accent">3</span>
+          </div>
+          <div class="row">
+            <span>Score</span>
+            <span id="score" class="accent">0</span>
+          </div>
+          <div class="row">
+            <span>Status</span>
+            <span id="status" class="accent">Sweep in progress</span>
+          </div>
+        </div>
+      </div>
+      <div class="badge">
+        <span>Press R to reset</span>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
