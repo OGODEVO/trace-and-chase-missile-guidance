@@ -10,7 +10,7 @@ A hands-on playground for 3D missile-vs-aircraft engagements. The updated simula
 - **Scenario scripting** – tweak numbers (speeds, launch points, detection radii, etc.) in `trace_and_chase.py` to explore new engagements.
 
 ## Requirements
-- Python 3.8+
+- Python 3.8+ .
 - `numpy`
 - `matplotlib`
 
